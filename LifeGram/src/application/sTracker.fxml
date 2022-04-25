@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="552.0" prefWidth="388.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.sTrackerController">
+   <children>
+      <Button fx:id="Home" alignment="CENTER" layoutX="304.0" layoutY="505.0" mnemonicParsing="false" onAction="#switchToMain" prefHeight="33.0" prefWidth="70.0" style="-fx-background-color: white;" text="Home" />
+      <TextField fx:id="hrsToAdd" layoutX="21.0" layoutY="68.0" prefHeight="31.0" prefWidth="119.0" promptText="Numbers Only" />
+      <Button fx:id="add" layoutX="146.0" layoutY="68.0" mnemonicParsing="false" onAction="#addHrs" style="-fx-background-color: lightgreen;" text="Add" />
+      <Text layoutX="21.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Hours Slept:" />
+      <ListView fx:id="dayList" layoutX="21.0" layoutY="139.0" prefHeight="200.0" prefWidth="200.0" />
+      <Text layoutX="228.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- It is always recommended to sleep EIGHT hours a day! -" wrappingWidth="131.833984375">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Text>
+      <Button fx:id="resetDays" layoutX="164.0" layoutY="103.0" mnemonicParsing="false" onAction="#resetDayList" style="-fx-background-color: white;" text="Reset" />
+      <Text layoutX="21.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Average Hours of Sleep:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <ListView fx:id="weekList" layoutX="21.0" layoutY="445.0" prefHeight="93.0" prefWidth="200.0" />
+      <Text layoutX="21.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weekly Average" />
+      <Label fx:id="AvgHours" layoutX="21.0" layoutY="364.0" prefHeight="25.0" prefWidth="70.0" text="0 hrs">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Button fx:id="resetWeeks" layoutX="168.0" layoutY="415.0" mnemonicParsing="false" onAction="#resetWeekList" prefHeight="25.0" prefWidth="45.0" text="Reset" />
+   </children>
+</AnchorPane>

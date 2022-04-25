@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="379.0" style="-fx-background-color: lightgreen;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Button fx:id="cTracker" alignment="BOTTOM_CENTER" layoutX="57.0" layoutY="155.0" mnemonicParsing="false" onAction="#switchTOcTracker" prefHeight="91.0" prefWidth="97.0" style="-fx-background-color: white;" text="Calorie Tracker" />
+      <Button fx:id="sTracker" alignment="BOTTOM_CENTER" layoutX="238.0" layoutY="155.0" mnemonicParsing="false" onAction="#switchTOsTracker" prefHeight="91.0" prefWidth="97.0" style="-fx-background-color: white;" text="Sleep Tracker" />
+      <Text layoutX="117.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gram" textAlignment="CENTER" wrappingWidth="264.84375">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="40.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="100.0" fitWidth="151.0" layoutX="57.0" layoutY="21.0">
+         <image>
+            <Image url="@../../Images/Life-PNG-Photo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="79.0" fitWidth="75.0" layoutX="249.0" layoutY="167.0">
+         <image>
+            <Image url="@../../Images/sleep-icon-0.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="61.0" fitWidth="67.0" layoutX="72.0" layoutY="167.0">
+         <image>
+            <Image url="@../../Images/1349981.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
