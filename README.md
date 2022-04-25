@@ -4,8 +4,7 @@ Project Name: LifeGram
 Team Name: Architechts
 
 Team Members:
-Justin Breaux
-Vatsal Patel
+Justin Breaux, Vatsal Patel
 
 Short Description:
 This application is a calorie and sleep tracker with a GUI.
