@@ -10,7 +10,7 @@ Calorie Tracker Button
 When clicking on the calorie tracker button the user will be welcomed to a screen that has a list of food items on the top. When clicking the food item, the user specific item will be highlighted, click the green "Add" button that is directly
 below the listView of food items. After the user has added an item that item will be transfered to the now populated list on the bottom of the screen. This list is what the user is tracking. Below the list is the total amount of calories
 the user has inputted. If the user inputted the wrong food item the user has to click on the item in the users populated list and click the red "Remove" button on the bottom of the list. The item that is now removed should leave the 
-users list and also subtract from the total amount of calories. On the top right of the screen there is a white "reset" button. When clicked it removes all the entities inside the users list and returns a 0 for the total amount of calories.
+users list and also subtract from the total amount of calories. On the buttom of the screen there is a white "reset" button. When clicked it removes all the entities inside the users list and returns a 0 for the total amount of calories.
 On the bottom right of the interface the user can locate a "home" button which returns the user back to the main screen.
 
 Sleep Tracker Button
