@@ -1,7 +1,18 @@
 # Calorie-Sleep-Tracker
+Project Name: LifeGram
 
+Team Name: Architechts
+
+Team Members:
+Justin Breaux
+Vatsal Patel
+
+Short Description:
 This application is a calorie and sleep tracker with a GUI.
 When running this program you will be welcomed to a home screen with the title "LifeGram" on the top and two buttons in the middle of the screen. The left button is the applications calorie tracker and the right is the sleep tracker.
+
+Bug:
+Having trouble implementing model class because it was bugging the controllers and data.
 
 All required data has been provided within this repository.
 
